@@ -1,6 +1,6 @@
 # Construire l’image Docker
 build:
-	docker build -t pritus-tech . 
+	docker-compose build
 
 # Initialiser Terraform
 init:

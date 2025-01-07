@@ -1,6 +1,6 @@
-# Construire l’image Docker
+# Construire l'image Docker et démarrer le conteneur
 build:
-	docker-compose build
+	docker-compose up --build
 
 # Initialiser Terraform
 init:
